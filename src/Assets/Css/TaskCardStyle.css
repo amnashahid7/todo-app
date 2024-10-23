@@ -1,0 +1,91 @@
+.task_card{
+    width:100% ;
+    min-height:100px ;
+    border:1px solid #dcdcdc ;
+    border-radius: 10px ;
+    padding: 15px ;
+    margin-bottom: 15px ;
+    cursor: grab;
+}
+.task_card:active{
+    opacity: 0.7;
+    border: 1px solid #111;
+}
+.task_card_text{
+    font-size:18px ;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.task_card_delete{
+    width: 35px;
+    height: 35px;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin-top: 15px;
+}
+.task_card_delete:hover{
+    background-color: #ebebeb;
+}
+.delete_icon{
+    width: 35px;
+    opacity: 50%;
+    transition: all 0.3s ease-in-out;
+}
+.delete_icon1{
+    width: 15px;
+    opacity: 50%;
+    transition: all 0.3s ease-in-out;
+}
+.task_card_delete:hover .delete_icon {
+    opacity: 80%;
+}
+.addDiv{
+    width: 90px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #4f65d2;
+    border: 1px solid #dfe3e6;
+    border-radius: 5px;
+    padding: 2px 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.input-container1{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(11, 11, 11);
+    background-color: whitesmoke;
+    border:1px solid #dfe3DF ;
+    border-radius: 5PX;
+    padding:8px 12px ;
+    margin-bottom:15px ;
+    width: 70%;
+}
+.submitBtn{
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #6457f9;
+    color: #fff;
+    border-radius: 5px;
+    height: 40px;
+    padding: 3px 13px;
+    margin-left: 10px;
+    border: none;
+    cursor: pointer;
+}
+.submitted-text{
+    padding: 10px;
+  border: 2px solid #007bff; /* Blue border */
+  border-radius: 5px; /* Rounded corners */
+  background-color: #e9f5ff; /* Light blue background */
+  margin-top: 10px;
+}
+
